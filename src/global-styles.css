@@ -12,7 +12,7 @@
 }
 html,
 body {
-  height: 100%;
+  /*height: 100%;*/
 }
 body {
   line-height: 1.5;
@@ -53,6 +53,9 @@ html {
 
   --color-bg: hsl(212, 45%, 89%);
   --color-light-text: hsl(220deg 15% 55%);
+  --color-sedans: hsl(31, 77%, 52%);
+  --color-suvs: hsl(184, 100%, 22%);
+  --color-luxury: hsl(179, 100%, 13%);
 
   --shadow-color: 250deg 35% 11%;
   /* prettier-ignore */
@@ -81,7 +84,7 @@ html {
 
 body {
   background-color: var(--color-bg);
-  height: 100vh;
+  min-height: 100vh;
   display: flex;
   justify-content: center;
   align-items: center;
