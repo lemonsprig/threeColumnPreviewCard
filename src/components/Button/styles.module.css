@@ -1,0 +1,29 @@
+button {
+  width: 60%;
+  background-color: white;
+  padding: 0.5rem;
+  border-radius: 500px;
+  border: 2px solid #fff;
+  font-family: "lexend deca", sans-serif;
+}
+
+button:hover {
+  width: 60%;
+  background-color: transparent;
+  padding: 0.5rem;
+  border-radius: 500px;
+  border: 2px solid #fff;
+  color: #fff;
+}
+
+.sedans {
+  color: var(--color-sedans);
+}
+
+.suvs {
+  color: var(--color-suvs);
+}
+
+.luxury {
+  color: var(--color-luxury);
+}

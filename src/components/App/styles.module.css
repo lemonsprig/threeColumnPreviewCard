@@ -2,7 +2,14 @@ main {
   height: 100vh;
   display: flex;
   flex-direction: column;
-  width: 355px;
   padding: 50px 20px;
-  border: 2px solid red;
+}
+
+@media only screen and (min-width: 768px) {
+  /*for desktop*/
+  main {
+    height: 100%;
+    flex-direction: row;
+    width: 100%;
+  }
 }

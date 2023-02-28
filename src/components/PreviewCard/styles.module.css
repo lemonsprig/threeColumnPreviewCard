@@ -2,8 +2,9 @@
   display: flex;
   flex-direction: column;
   gap: 25px;
-  padding: 25px;
+  padding: 50px 25px;
   color: white;
+  width: 355px;
 }
 
 .card:first-child {
@@ -28,4 +29,24 @@
 
 .card img {
   align-self: start;
+}
+
+.card h1 {
+  font-family: "big shoulders display", sans-serif;
+  font-weight: 700;
+}
+
+.card p {
+  font-family: "lexend deca", sans-serif;
+}
+
+@media only screen and (min-width: 768px) {
+  /* for desktop */
+  .card:first-child {
+    border-radius: 10px 0px 0 10px;
+  }
+
+  .card:last-child {
+    border-radius: 0 10px 10px 0;
+  }
 }

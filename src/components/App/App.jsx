@@ -1,6 +1,8 @@
 import React from "react";
 import PreviewCard from "../PreviewCard/PreviewCard";
 import styles from "./styles.module.css";
+import "@fontsource/lexend-deca";
+import "@fontsource/big-shoulders-display";
 
 function app() {
   return (

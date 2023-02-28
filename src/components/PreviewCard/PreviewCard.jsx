@@ -5,6 +5,8 @@ import Luxury from "../../assets/icon-luxury.svg";
 import Sedans from "../../assets/icon-sedans.svg";
 import Suvs from "../../assets/icon-suvs.svg";
 
+import Button from "../Button";
+
 const ICONS_BY_TYPE = {
   luxury: Luxury,
   sedans: Sedans,
@@ -17,7 +19,7 @@ function PreviewCard({ type, children }) {
     <div className={appliedClass}>
       <img src={ICONS_BY_TYPE[type]} alt="Icon luxury car" height="50px"></img>
       {children}
-      <button>Learn more</button>
+      <Button type={type}>Learn more</Button>
     </div>
   );
 }
