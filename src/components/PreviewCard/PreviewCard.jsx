@@ -13,8 +13,9 @@ const ICONS_BY_TYPE = {
   suvs: Suvs,
 };
 
-function PreviewCard({ type, children }) {
-  const appliedClass = `${Styles.card} ${Styles[type]}`;
+function PreviewCard({ type, className, children }) {
+  const appliedClass = `${Styles.card} ${Styles[type]} ${className}`;
+  console.log(appliedClass);
   return (
     <div className={appliedClass}>
       <img src={ICONS_BY_TYPE[type]} alt="Icon luxury car" height="50px"></img>

@@ -1,13 +1,13 @@
 import React from "react";
 import PreviewCard from "../PreviewCard/PreviewCard";
-import styles from "./styles.module.css";
+import Styles from "./styles.module.css";
 import "@fontsource/lexend-deca";
 import "@fontsource/big-shoulders-display";
 
 function app() {
   return (
     <main>
-      <PreviewCard type="sedans">
+      <PreviewCard type="sedans" className={Styles.firstCard}>
         <h1>SEDANS</h1>
         <p>
           Choose a sedan for its affordability and excellent fuel economy. Ideal
@@ -21,7 +21,7 @@ function app() {
           for your next family vacation and off-road adventues.
         </p>
       </PreviewCard>
-      <PreviewCard type="luxury">
+      <PreviewCard type="luxury" className={Styles.lastCard}>
         <h1>LUXURY</h1>
         <p>
           Cruise in the best car brands without the bloated prices. Enjoy the

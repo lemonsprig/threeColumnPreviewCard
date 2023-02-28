@@ -7,13 +7,13 @@
   width: 355px;
 }
 
-.card:first-child {
+/* .card:first-child {
   border-radius: 10px 10px 0 0;
 }
 
 .card:last-child {
   border-radius: 0 0 10px 10px;
-}
+} */
 
 .sedans {
   background-color: var(--color-sedans);
@@ -42,11 +42,11 @@
 
 @media only screen and (min-width: 768px) {
   /* for desktop */
-  .card:first-child {
+  /* .card:first-child {
     border-radius: 10px 0px 0 10px;
   }
 
   .card:last-child {
     border-radius: 0 10px 10px 0;
-  }
+  } */
 }
